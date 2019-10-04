@@ -1,0 +1,22 @@
+{
+   "name": "aucelBack",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "body-parser": "^1.19.0",
+      "dotenv": "^8.1.0",
+      "express": "^4.15.4",
+      "mysql": "^2.17.1",
+      "nodemon": "^1.19.3",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "^0.2.19"
+   },
+   "scripts": {
+      "start": "nodemon --exec ts-node src/index.ts"
+   }
+}

@@ -1,0 +1,25 @@
+
+
+####
+
+
+GET http://localhost:3000/voter
+
+####
+
+POST http://localhost:3000/voter
+content-type: application/json
+
+{
+    "voter" : {
+        "dni": "",
+        "name": "",
+        "lastname": "",
+        "email": "",
+        "password": ""
+    }
+}
+
+####
+
+DELETE http://localhost:3000/voter/5d98d4eeb994374bf6c22cfd

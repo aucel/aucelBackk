@@ -1,0 +1,24 @@
+
+
+####
+
+
+GET http://localhost:3000/candidate
+
+####
+
+POST http://localhost:3000/candidate
+content-type: application/json
+
+{
+    "candidate" : {
+        "dni": "",
+        "partido": "",
+        "presidente": "",
+        "vicepresidente": ""
+    }
+}
+
+####
+
+DELETE http://localhost:3000/candidate/5d98ced9131e67392cf42101

@@ -1,24 +1,15 @@
-
-
-
-
 ####
-
-
 GET http://localhost:3000/voter
 
 ####
-
 POST http://localhost:3000/vote
 content-type: application/json
 
 {
     "voter" : {
-        "dni": 123,
-        "password": "asd"
+        "id": "5d9e586578f7031306de2480"
+    },
+    "candidate" : {
+        "id" : "5d9e54f4b25f677e2e2f37c8"
     }
 }
-
-####
-
-DELETE http://localhost:3000/voter/5d98d4eeb994374bf6c22cfd

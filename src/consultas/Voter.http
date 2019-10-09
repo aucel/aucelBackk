@@ -12,14 +12,14 @@ content-type: application/json
 
 {
     "voter" : {
-        "dni": 123,
+        "dni": 124,
         "name": "",
         "lastname": "",
         "email": "",
-        "password": "asd"
+        "password": "qwe"
     }
 }
 
 ####
 
-DELETE http://localhost:3000/voter/5d9dd1fd6ff3b82b036b4d91
+DELETE http://localhost:3000/voter/5d9dd20a6ff3b82b036b4d92

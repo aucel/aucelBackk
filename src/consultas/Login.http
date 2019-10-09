@@ -1,0 +1,13 @@
+####
+GET http://localhost:3000/voter
+
+####
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "voter" : {
+        "dni": 456,
+        "password": "qwe"
+    }
+}

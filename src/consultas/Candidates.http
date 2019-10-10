@@ -12,8 +12,8 @@ content-type: application/json
 
 {
     "candidate" : {
-        "dni": "",
-        "partido": "",
+        "dni": 1,
+        "partido": "erfwcasdcas",
         "presidente": "",
         "vicepresidente": ""
     }
@@ -22,3 +22,7 @@ content-type: application/json
 ####
 
 DELETE http://localhost:3000/candidate/5d98ced9131e67392cf42101
+
+####
+
+DELETE http://localhost:3000/candidate

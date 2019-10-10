@@ -84,4 +84,15 @@ module.exports = app => {
 
     });
 
+    app.delete(url, (req, res) => {
+
+        var bulk = db.candidates.initializeUnorderedBulkOp();
+        bulk.find({}).remove();
+
+        bulk.execute(function (err, response) { 
+            res.status(200).json(response); 
+        });
+
+    });
+
 };

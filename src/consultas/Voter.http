@@ -1,8 +1,6 @@
 
 
 ####
-
-
 GET http://localhost:3000/voter
 
 ####
@@ -12,7 +10,7 @@ content-type: application/json
 
 {
     "voter" : {
-        "dni": 124,
+        "dni": 12341234,
         "name": "",
         "lastname": "",
         "email": "",
@@ -21,5 +19,7 @@ content-type: application/json
 }
 
 ####
-
 DELETE http://localhost:3000/voter/5d9dd20a6ff3b82b036b4d92
+
+####
+DELETE http://localhost:3000/voter
